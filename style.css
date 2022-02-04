@@ -1,0 +1,44 @@
+.container {
+    width: 500px;
+    display: flex;
+    height: 500px;
+    /* justify-content: start;
+    align-items: start; */
+    flex-wrap: wrap;
+    border: solid 2px;
+    /* position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+   
+}
+
+.gridsquare {
+    width: 40px;
+    height: 40px;
+
+}
+
+body {
+  display: flex;
+  height: 640px;
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  gap: 40px;
+}
+
+button {
+    gap: 10px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
